@@ -1,0 +1,22 @@
+# Contagem Regressiva para o Ano Novo
+
+Este programa é uma contagem regressiva simples para o final de 2024, que exibe os segundos restantes até a chegada de 2025. Quando o contador chega a zero, uma mensagem de felicitações é exibida.
+
+## Como funciona
+
+- O programa inicia uma contagem regressiva de 10 segundos.
+- A cada segundo, a tela é limpa e o tempo restante é exibido.
+- Ao final da contagem, uma mensagem de "Feliz 2025!!" é mostrada.
+
+## Requisitos
+
+- Esta implementação utiliza uma biblioteca utilitária para manipulação de tempo e limpeza de tela.
+
+## Uso
+
+1. Clone este repositório.
+2. Execute o programa em um ambiente compatível com a linguagem utilizada.
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
