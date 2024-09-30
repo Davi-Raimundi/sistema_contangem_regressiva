@@ -1,0 +1,24 @@
+programa
+{
+	inclua biblioteca Util --> u
+		
+		funcao inicio()
+	{
+		inteiro contador=10
+	
+		enquanto(contador>0)
+		
+		{
+			limpa()
+			contador--
+			
+			escreva("\n Final de 2024 em : ", contador)
+
+			u.aguarde(1000)
+		}
+		
+		limpa()
+		escreva("\n Feliz 2025!!")
+	
+	}
+}
