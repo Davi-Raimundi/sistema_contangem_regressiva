@@ -1,24 +1,19 @@
-programa
-{
-	inclua biblioteca Util --> u
-		
-		funcao inicio()
-	{
-		inteiro contador=10
-	
-		enquanto(contador>0)
-		
-		{
-			limpa()
-			contador--
-			
-			escreva("\n Final de 2024 em : ", contador)
+# Contagem Regressiva para 2025
 
-			u.aguarde(1000)
-		}
-		
-		limpa()
-		escreva("\n Feliz 2025!!")
-	
-	}
-}
+Este é um simples programa de contagem regressiva que exibe o tempo restante até o final de 2024, com uma mensagem de feliz ano novo ao final.
+
+## Como Executar
+
+1. Certifique-se de ter a biblioteca `Util` instalada.
+2. Compile o código usando seu compilador preferido.
+3. Execute o programa.
+
+## Descrição do Código
+
+- O programa inicia uma contagem regressiva de 10 segundos.
+- A cada segundo, ele atualiza a tela mostrando o tempo restante.
+- Quando a contagem chega a zero, exibe "Feliz 2025!!".
+
+## Licença
+
+Este projeto é de domínio público.
